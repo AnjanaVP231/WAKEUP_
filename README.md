@@ -56,9 +56,9 @@ Where p1 to p6 are eye landmark points.
 ## 🏗 System Architecture
 
 User → Mobile App → Camera → EAR Detection Model → Alert System
-↓
+→
 MySQL Database
-↓
+→
 Admin Web Dashboard
 
 ---
@@ -112,12 +112,13 @@ Admin Web Dashboard
 
 ---
 
-📊 Future Enhancements
+### 📊 Future Enhancements
 
--Driver Behaviour Analysis
--Cloud Storage Integration
--Deep Learning Model Upgrade
--Smart Wearable Integration
+- Driver Behaviour Analysis
+- Cloud Storage Integration
+- Deep Learning Model Upgrade
+- Smart Wearable Integration
+
 ---
 
 ## 🤝 Contributors
