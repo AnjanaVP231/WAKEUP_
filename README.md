@@ -122,8 +122,6 @@ Admin Web Dashboard
 ---
 
 ## 🤝 Contributors
-👩‍💻 **Anjana V P**  
-👨‍💻 **[AnjanaVP231](https://github.com/AnjanaVP231)**  
+👩‍💻 **Anjana V P [AnjanaVP231](https://github.com/AnjanaVP231)**  
 
-👩‍💻 **Vandana TTK**  
-👨‍💻 **[VandanaTTK](https://github.com/VandanaTTK)**  
+👩‍💻 **Vandana TTK [VandanaTTK](https://github.com/VandanaTTK)**  
