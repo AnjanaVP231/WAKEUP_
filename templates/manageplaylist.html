@@ -1,0 +1,52 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>manage playlist</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<form id="form1" name="form1" method="post" action="search_mupl#about">
+  <table  border="1" class="table table-striped">
+{#    <caption>#}
+{#      Manage playlist#}
+{#    </caption>#}
+    <tr>
+      <th colspan="6" scope="row"><label>
+
+          <input type="text" name="textfield" />
+          <input type="submit" name="Submit" value="search" />
+      </label></th>
+    </tr>
+    <tr>
+      <th scope="row">Sl No</th>
+      <td>Music name</td>
+      <td>Music File</td>
+      <td>Singer</td>
+
+      <td></td>
+    </tr>
+      {% for i in val %}
+    <tr>
+    <td>{{ forloop.counter }}</td>
+      <th>{{ i.year }}</th>
+        <td><a href="{{ i.music.url }}"download>{{ i.music }}</a></td>
+      <td>{{ i.singer }}</td>
+
+      <td><p><a href="edit/{{ i.id }}#about"><i class="bi bi-pencil"></i></a></p>
+      <p><a href="delete/{{ i.id }}#about""><i class="bi bi-trash3"></i></a></p></td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td colspan="6" align="center" ><a href="add_new#about">ADD</a></td>
+    </tr>
+  </table>
+</form>
+
+{#</body>#}
+{#</html>#}
+{% endblock %}

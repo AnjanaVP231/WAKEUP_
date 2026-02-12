@@ -1,0 +1,58 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<form action="/new_music" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table table-striped" border="0">
+{#    <caption>#}
+{#      Add New Music#}
+{#    </caption>#}
+    <tr>
+      <th scope="row">Music name</th>
+      <td><label>
+        <input type="text" name="textfield" required"/>
+      </label></td>
+    </tr>
+    <tr>
+      <th scope="row">Music</th>
+      <td><label>
+        <input type="file" name="file" required/>
+      </label></td>
+    </tr>
+{#    <tr>#}
+{#      <th scope="row">Emotion</th>#}
+{#      <td><label>#}
+{#       <select name="Emotions">#}
+{#           <option>happy</option>#}
+{#           <option>sad</option>#}
+{#           <option>anger</option>#}
+{#           <option>fear</option>#}
+{#           <option>normal</option>#}
+{#           <option>disgust</option>#}
+{#       </select>#}
+{#      </label></td>#}
+{#    </tr>#}
+    <tr>
+      <th scope="row">Singer</th>
+      <td><label>
+        <input type="text" name="textfield3"  required pattern="[A-Z a-z.]{3,25}"/>
+      </label></td>
+    </tr>
+    <tr>
+      <th colspan="2" scope="row"><label>
+        <input type="submit" name="Submit" value="Add" />
+      </label></th>
+    </tr>
+  </table>
+  <label></label>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}
