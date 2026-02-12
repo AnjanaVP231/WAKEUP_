@@ -105,6 +105,12 @@ Admin Web Dashboard
 - Git & GitHub  
 
 ---
+## 📸 Screenshots
+<img width="1920" height="794" alt="AdminHome" src="https://github.com/user-attachments/assets/1c8ecf47-20a6-4800-b31e-cc587e4878c6" />
+
+![Ulogin](https://github.com/user-attachments/assets/55a37940-5601-4b0f-a3ae-6913544bf3e9)
+
+---
 
 📊 Future Enhancements
 
@@ -120,10 +126,3 @@ Admin Web Dashboard
 
 👩‍💻 **Vandana TTK**  
 👨‍💻 **[VandanaTTK](https://github.com/VandanaTTK)**  
-
-
-📸 Screenshots
-<img width="1920" height="794" alt="AdminHome" src="https://github.com/user-attachments/assets/1c8ecf47-20a6-4800-b31e-cc587e4878c6" />
-![Ulogin](https://github.com/user-attachments/assets/55a37940-5601-4b0f-a3ae-6913544bf3e9)
-
-
